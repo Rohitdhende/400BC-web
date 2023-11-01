@@ -11,8 +11,7 @@ import { IconSearch } from '@tabler/icons';
 import { Drawer, Indicator } from '@mantine/core';
 import { IconShoppingCart } from '@tabler/icons';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
-import { getCart } from '../pages/api/products';
+import { useState } from 'react';
 
 const useStyles = createStyles((theme) => ({
   header: {

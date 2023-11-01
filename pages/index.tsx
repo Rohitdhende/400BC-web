@@ -1,12 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { createStyles } from '@mantine/core';
 import ProductListWrapper from '../components/ProductListWrapper';
 
 import { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
-import { IconPhoto, IconPrinter, IconCameraSelfie } from '@tabler/icons';
-import { Accordion, useMantineTheme, Title, RangeSlider } from '@mantine/core';
+import { Accordion, Title, RangeSlider } from '@mantine/core';
 import { IconAdjustments } from '@tabler/icons';
 
 import {
